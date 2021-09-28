@@ -27,6 +27,28 @@
 </head>
 <body>
 
+    <div id="container">
+        <div id="buttonHolder">
+
+            <!-- ? if image number increase division is decreasing, 100 / number of image -->
+            <i class="fas fa-chevron-circle-left" onclick="slideBtn(100)" onmouseenter="stopSlider()" onmouseleave="resumeSlider()"></i>
+            <div id="caption">
+                <h1>adventures</h1>
+                <h1>await</h1>
+            </div>
+
+            <!-- ? if image number increase division is decreasing, 100 / number of image -->
+            <i class="fas fa-chevron-circle-right" onclick="slideBtn(-100)" onmouseenter="stopSlider()" onmouseleave="resumeSlider()"></i>
+        </div>
+        <div id="slideHolder">
+            <!-- <div id="slide"></div>
+            <div id="slide"></div>
+            <div id="slide"></div>
+            <div id="slide"></div>
+            <div id="slide"></div> -->
+        </div>
+    </div>
+
 
 
 
@@ -38,7 +60,8 @@
 
 
     <!-- JAVASCRIPT -->
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="slider.js"></script>
     
 </body>
 </html>

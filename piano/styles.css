@@ -1,0 +1,90 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color : rgb(235, 235, 235);
+    --secondary-color : white;
+}
+
+html, body {
+    height: 100%; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    user-select: none;
+}
+
+#container {
+    width: 1000px;
+    height: 500px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0 10px 20px;
+    box-sizing: border-box;
+    z-index: 100;
+    margin-top: 20%;
+}
+
+.key {
+    width: calc(100%/10);
+    height: 70%;
+    background-color:var(--secondary-color);
+    transition: all 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    opacity: 0.7;
+}
+
+/* ! CHANGE THIS WHEN DEVELOP JS */
+.activeKey {
+    background-color: rgb(78, 78, 212);
+    transform: scaleY(103%) translateY(1.5%);
+    border-radius: 10px;
+    color: white;
+    opacity: 1;
+}
+
+#lightTrack {
+    height: 69%;
+    width: 1000px;
+    position: fixed;
+    top: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0 10px 20px;
+}
+
+.light {
+    width: calc(100%/10);
+    height: 100%;
+    background: var(--secondary-color);
+    transition: all 100ms ease-in-out;
+    transform: scaleY(1%);
+}
+
+/* ! CHANGE THIS WHEN DEVELOP JS */
+.active-light {
+    transform: scaleY(100%);
+    background-color: rgb(78, 78, 212);
+}

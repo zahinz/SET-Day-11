@@ -28,9 +28,12 @@
 
 ## What I learned today 💡
 
-### Parallax website 
-* 
+### Slider JS
+* `transform: translateX` => `%` and `vw` is different apply in children property
 
+### Keyboard activity
+* `switch case` only can apply 1 `case`
+* to apply 2 condition, use `if` statement
 
 ---
 

@@ -1,0 +1,36 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+#container {
+    width: 900px;
+    height: 600px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+#boxy {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    transition: all 100ms ease-in-out;
+}

@@ -10,6 +10,103 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    position: relative;
+}
+
 img {
     width: 100%;
 }
+
+#container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#buttonHolder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+#buttonHolder i {
+    font-size: 3rem;
+    color: white;
+    opacity: 0.5;
+    transition: all 300ms;
+}
+
+#buttonHolder i:active {
+    opacity: 1;
+}
+
+#caption h1 {
+    font-size: 8rem;
+    color: white;
+    line-height: 0.8;
+}
+
+#slideHolder {
+    /* ? f image number increase width percentage = 100% * number of image also need to increase  */
+    width: 0vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 500ms ease-in-out;
+}
+
+#slide {
+    height: 100%;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.9)
+}
+
+#slide:nth-child(1) {
+    background-image: url(assets/image-1.jpg);
+}
+
+#slide:nth-child(2) {
+    background-image: url(assets/image-2.jpg);
+}
+
+#slide:nth-child(3) {
+    background-image: url(assets/image-3.jpg);
+}
+
+#slide:nth-child(4) {
+    background-image: url(assets/image-4.jpg);
+}
+
+#slide:nth-child(5) {
+    background-image: url(assets/image-5.jpg);
+}
+
+/* .next-ani {
+    animation-name: nextAni;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes nextAni {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-25%);
+    }
+} */
