@@ -64,7 +64,7 @@ body {
 }
 
 #lightTrack {
-    height: 69%;
+    height: 80%;
     width: 1000px;
     position: fixed;
     top: 0;
@@ -87,4 +87,13 @@ body {
 .active-light {
     transform: scaleY(100%);
     background-color: rgb(78, 78, 212);
+}
+
+#info {
+    width: 1000px;
+    height: 120px;
+    background-color: wheat;
+    position: fixed;
+    top: 36%;
+    z-index: 1000;
 }

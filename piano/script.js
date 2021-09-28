@@ -40,7 +40,7 @@ window.addEventListener("keydown", keyPressed)
 window.addEventListener("keyup", keyUp)
 
 function keyPressed(evt) {
-    console.log(evt);
+    // console.log(evt);DH
     if (evt.keyCode == 65) {
         console.log(`I pressed A`);
         sound1.play()
@@ -49,49 +49,49 @@ function keyPressed(evt) {
         
     }
     if (evt.keyCode == 83) {
-        console.log(`I pressed W`);
+        console.log(`I pressed S`);
         sound2.play()
         key2.classList.add("activeKey")
         light2.classList.add("active-light")
     }
     if (evt.keyCode == 68) {
-        console.log(`I pressed E`);
+        console.log(`I pressed D`);
         sound3.play()
         key3.classList.add("activeKey")
         light3.classList.add("active-light")
     }
     if (evt.keyCode == 70) {
-        console.log(`I pressed R`);
+        console.log(`I pressed F`);
         sound4.play()
         key4.classList.add("activeKey")
         light4.classList.add("active-light")
     }
     if (evt.keyCode == 71) {
-        console.log(`I pressed Y`);
+        console.log(`I pressed G`);
         sound5.play()
         key5.classList.add("activeKey")
         light5.classList.add("active-light")
     }
     if (evt.keyCode == 72) {
-        console.log(`I pressed U`);
+        console.log(`I pressed H`);
         sound6.play()
         key6.classList.add("activeKey")
         light6.classList.add("active-light")
     }
     if (evt.keyCode == 74) {
-        console.log(`I pressed I`);
+        console.log(`I pressed J`);
         sound7.play()
         key7.classList.add("activeKey")
         light7.classList.add("active-light")
     }
     if (evt.keyCode == 75) {
-        console.log(`I pressed O`);
+        console.log(`I pressed K`);
         sound8.play()
         key8.classList.add("activeKey")
         light8.classList.add("active-light")
     }
     if (evt.keyCode == 76) {
-        console.log(`I pressed P`);
+        console.log(`I pressed L`);
         sound9.play()
         key9.classList.add("activeKey")
         light9.classList.add("active-light")
@@ -99,57 +99,57 @@ function keyPressed(evt) {
 }
 
 function keyUp(evt) {
-    console.log(evt);
+    // console.log(evt);
     if (evt.keyCode == 65) {
-        console.log(`I released Q`);
+        console.log(`I released A`);
         sound1.load()
         key1.classList.remove("activeKey")
         light1.classList.remove("active-light")
     }
     if (evt.keyCode == 83) {
-        console.log(`I released W`);
+        console.log(`I released S`);
         sound2.load()
         key2.classList.remove("activeKey")
         light2.classList.remove("active-light")
     }
     if (evt.keyCode == 68) {
-        console.log(`I released E`);
+        console.log(`I released D`);
         sound3.load()
         key3.classList.remove("activeKey")
         light3.classList.remove("active-light")
     }
     if (evt.keyCode == 70) {
-        console.log(`I released R`);
+        console.log(`I released F`);
         sound4.load()
         key4.classList.remove("activeKey")
         light4.classList.remove("active-light")
     }
     if (evt.keyCode == 71) {
-        console.log(`I released Y`);
+        console.log(`I released G`);
         sound5.load()
         key5.classList.remove("activeKey")
         light5.classList.remove("active-light")
     }
     if (evt.keyCode == 72) {
-        console.log(`I released U`);
+        console.log(`I released H`);
         sound6.load()
         key6.classList.remove("activeKey")
         light6.classList.remove("active-light")
     }
     if (evt.keyCode == 74) {
-        console.log(`I released I`);
+        console.log(`I released J`);
         sound7.load()
         key7.classList.remove("activeKey")
         light7.classList.remove("active-light")
     }
     if (evt.keyCode == 75) {
-        console.log(`I released O`);
+        console.log(`I released K`);
         sound8.load()
         key8.classList.remove("activeKey")
         light8.classList.remove("active-light")
     }
     if (evt.keyCode == 76) {
-        console.log(`I released P`);
+        console.log(`I released L`);
         sound9.load()
         key9.classList.remove("activeKey")
         light9.classList.remove("active-light")
@@ -171,30 +171,48 @@ function mouseDown(evt) {
 
     if (id == "sound1") {
         sound1.play()
+        key1.classList.add("activeKey")
+        light1.classList.add("active-light")
     }
     if (id == "sound2") {
         sound2.play()
+        key2.classList.add("activeKey")
+        light2.classList.add("active-light")
     }
     if (id == "sound3") {
         sound3.play()
+        key3.classList.add("activeKey")
+        light3.classList.add("active-light")
     }
     if (id == "sound4") {
         sound4.play()
+        key4.classList.add("activeKey")
+        light4.classList.add("active-light")
     }
     if (id == "sound5") {
         sound5.play()
+        key5.classList.add("activeKey")
+        light5.classList.add("active-light")
     }
     if (id == "sound6") {
         sound6.play()
+        key6.classList.add("activeKey")
+        light6.classList.add("active-light")
     }
     if (id == "sound7") {
         sound7.play()
+        key7.classList.add("activeKey")
+        light7.classList.add("active-light")
     }
     if (id == "sound8") {
         sound8.play()
+        key8.classList.add("activeKey")
+        light8.classList.add("active-light")
     }
     if (id == "sound9") {
         sound9.play()
+        key9.classList.add("activeKey")
+        light9.classList.add("active-light")
     }
     
 }
@@ -206,30 +224,48 @@ function mouseUp(evt) {
 
     if (id == "sound1") {
         sound1.load()
+        key1.classList.remove("activeKey")
+        light1.classList.remove("active-light")
     }
     if (id == "sound2") {
         sound2.load()
+        key2.classList.remove("activeKey")
+        light2.classList.remove("active-light")
     }
     if (id == "sound3") {
         sound3.load()
+        key3.classList.remove("activeKey")
+        light3.classList.remove("active-light")
     }
     if (id == "sound4") {
         sound4.load()
+        key4.classList.remove("activeKey")
+        light4.classList.remove("active-light")
     }
     if (id == "sound5") {
         sound5.load()
+        key5.classList.remove("activeKey")
+        light5.classList.remove("active-light")
     }
     if (id == "sound6") {
         sound6.load()
+        key6.classList.remove("activeKey")
+        light6.classList.remove("active-light")
     }
     if (id == "sound7") {
         sound7.load()
+        key7.classList.remove("activeKey")
+        light7.classList.remove("active-light")
     }
     if (id == "sound8") {
         sound8.load()
+        key8.classList.remove("activeKey")
+        light8.classList.remove("active-light")
     }
     if (id == "sound9") {
         sound9.load()
+        key9.classList.remove("activeKey")
+        light9.classList.remove("active-light")
     }
     
 }
