@@ -12,14 +12,15 @@
 
 
 ## What I learned yesterday 📚
-* Discovered `getElementById` only can detect 1 element
-* using `for loops` to dynamically change the the content of HTML
-* using `Math.random` to shuffle the music
+* Need a custom approach to determine the height of the `HTML` and `body`
+* learning `addEventListerner` : `onmousemove' & `onscroll`
+* log `evt` in the console give so much data can we use
+* just beware every browser will log different type of data. 
 
 ## Problem I solved yesterday 😎
-* Combining array and objects
-* `Date()`
-* 
+* using `keydown` and combine with `keyup` will give us the fluid experience 
+* `keydown` = `music.play()`
+* `keyup` = `music.load()`
 
 
 
@@ -30,6 +31,9 @@
 
 ### Slider JS
 * `transform: translateX` => `%` and `vw` is different apply in children property
+* combining `setInterval` with `if else` statement
+* using JavaScript to inject HTML elements
+* combining `addEventListener` with a `function`
 
 ### Keyboard activity
 * `switch case` only can apply 1 `case`
@@ -39,11 +43,10 @@
 
 
 ## Problem encountered 🧐
-* 
+* still do not understand the fundamental on how JavaScript injecting HTML
 
 ---
 
 
 ## Homeworks 📝
-* 
-# SET-Day-10
+* Learn on Udemy the concept of JavaScript HTML injection

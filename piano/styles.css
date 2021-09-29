@@ -92,7 +92,7 @@ body {
 #info {
     width: 1000px;
     height: 120px;
-    background-color: wheat;
+    /* background-color: wheat; */
     position: fixed;
     top: 310px;
     z-index: 1000;
